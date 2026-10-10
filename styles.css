@@ -1,0 +1,102 @@
+body {
+  background-image: url("images/ceej-lair.png");
+  color: white;
+  text-align: center;
+  padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Nosifer", sans-serif;
+  color: #32FF00;
+  text-shadow: 3px 3px 4px #000000;
+  font-size: 3rem;
+}
+
+.social-links a {
+  display: block;
+  background-color: #000000;
+  color: #32FF00;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  border: 2px solid #32FF00;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.social-links a:hover {
+  background-color: #32FF00;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 0 12px #32FF00;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #32FF00;
+  box-shadow: 0 0 10px #32FF00;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.access-granted {
+  color: #32FF00;
+  text-shadow: 0 0 10px #32FF00;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #CCCCCC;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #32FF00;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    header p,
+    section p {
+        font-size: 1rem;
+    }
+    footer {
+    font-size: 12px;
+    white-space: nowrap;
+}
+}
