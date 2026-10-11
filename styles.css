@@ -110,10 +110,12 @@ main {
         font-size: 1rem;
     }
     footer {
-    font-size: 12px;
+    font-size: 13px;
     white-space: normal;
     line-height: 1.5;
-    padding: 10px 15px;
+    padding: 10px 15px 25px;
+    color: #111111;
+    font-weight: 600;
 }
     body {
     background-image: url('images/keyaak-lux-mobile.png');
